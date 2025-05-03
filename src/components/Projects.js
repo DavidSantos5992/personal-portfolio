@@ -104,7 +104,7 @@ export const Projects = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                <h2>Projects</h2>
+                <h2>Projetos</h2>
                 <p>Ao longo da minha trajetória, desenvolvi diversos projetos práticos que evidenciam minhas habilidades em desenvolvimento web, automação, análise de dados e criação de chatbots. Cada projeto reflete meu comprometimento com soluções eficientes e funcionais. Confira alguns dos principais a seguir..</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
